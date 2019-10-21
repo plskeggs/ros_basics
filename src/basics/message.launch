@@ -1,0 +1,4 @@
+<launch>
+  <node name="sub" pkg="basics" type="message_subscriber.py" output="screen"/>
+  <node name="pub" pkg="basics" type="message_publisher.py" output="screen"/>
+</launch>

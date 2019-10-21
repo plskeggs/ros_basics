@@ -1,0 +1,13 @@
+# action definition needs goal, result, and feedback
+
+# goal
+duration time_to_wait
+---
+# result
+duration time_elapsed
+uint32 updates_sent
+---
+# feedback
+duration time_elapsed
+duration time_remaining
+
